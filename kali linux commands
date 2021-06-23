@@ -2,3 +2,9 @@
 INSTALL VS CODE
   First download vs code deb package
   sudo apt install ./"The package name here"
+  
+ INSTALL CHROME BROWSER
+ apt update
+ wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+ apt install ./google-chrome-stable_current_amd64.deb
+ 
