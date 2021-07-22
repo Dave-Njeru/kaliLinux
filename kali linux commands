@@ -8,3 +8,10 @@ INSTALL VS CODE
  wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
  apt install ./google-chrome-stable_current_amd64.deb
  
+ CRACK WINDOWS PASSWORDS
+ mount /dev/sda1 /mnt/
+ cd /mnt//Windows/System32/config
+ chntpw -l SAM
+ chntpw -u USERNAME SAM
+ umount /dev/sda1
+ 
